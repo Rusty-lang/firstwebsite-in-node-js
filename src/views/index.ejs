@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/styles.css">
+    <%- include ('partials/headFile.ejs') %>
+</head>
+<body>
+    <%- include ('partials/navigation.ejs') %>
+    <!-- hacer las partials no es obligatorio(puedes poner estilos a cada pagina individualmente) -->
+    <main>
+        <img src="/img/perspective_matte.png" alt="">
+    </main>
+    <style>
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 100px auto;
+        }
+        img{
+            width: 500px;
+        }
+    </style>
+</body>
+</html>
